@@ -5,7 +5,11 @@
 }
 
 .header__link {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
     font-size: 20px;
+}
+
+.header__link:focus {
+    text-decoration: underline;
 }
