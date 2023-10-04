@@ -7,4 +7,4 @@ import { BrowserModule } from '@angular/platform-browser';
   providers: [],
   bootstrap: [],
 })
-export class ProjectInfo {}
+export class TextfieldModule {}
