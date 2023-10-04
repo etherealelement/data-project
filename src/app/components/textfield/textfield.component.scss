@@ -1,0 +1,31 @@
+.textfield {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.textfield__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.textfield__text {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.textfield__area {
+    border: 1px solid gray;
+}
+
+.textfield__btn{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background: gray;
+}
