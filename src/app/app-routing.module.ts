@@ -4,16 +4,16 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'project',
-    loadComponent: () =>
-      import('./components/project-info/project-info.component').then(
-        (item) => item.ProjectInfoComponent
+    loadChildren: () =>
+      import('./components/project-info/project-info.module').then(
+        (item) => item.ProjectInfoRoutingModule
       ),
   },
   {
     path: 'textfield',
-    loadComponent: () =>
-      import('./components/textfield/textfield.component').then(
-        (item) => item.TextfieldComponent
+    loadChildren: () =>
+      import('./components/textfield/textfield.module').then(
+        (item) => item.TextfieldRoutingModule
       ),
   },
 ];

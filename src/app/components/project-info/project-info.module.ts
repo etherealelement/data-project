@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
+import { ProjectInfoComponent } from './project-info.component';
+
+const routes: Routes = [{ path: '', component: ProjectInfoComponent }];
 
 @NgModule({
-  declarations: [],
-  imports: [BrowserModule],
-  providers: [],
-  bootstrap: [],
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
 })
-export class ProjectInfo {}
+export class ProjectInfoRoutingModule {}
