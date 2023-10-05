@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TextfieldComponent } from './textfield.component';
+import { TextfieldComponent } from './input-data.component';
 
 describe('TextfieldComponent', () => {
   let component: TextfieldComponent;
@@ -8,7 +8,7 @@ describe('TextfieldComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TextfieldComponent]
+      declarations: [TextfieldComponent],
     });
     fixture = TestBed.createComponent(TextfieldComponent);
     component = fixture.componentInstance;
